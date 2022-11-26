@@ -4,38 +4,71 @@
 	<head> 
 		<meta charset="UTF-8">
 		<title> Barbearia do Miguel</title>
-		<link rel="stylesheet" href="style.css">
-
-		
+		<link rel ="stylesheet" href ="reset.css">
+		<link rel = "stylesheet" href = "style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	</head>
 
 	<body> 
 		<header>
-			<h1 class="tituloprincipal">Barbearia do Miguel</h1>
+			<div class = "caixa">
+				<h1><img src = "logo.png"></h1>
+				<p class="titulo">Barbearia do Miguel</p>
+				<nav>
+					<ul>
+						<li><a href= "index.html">Home</a></li>
+						<li><a href = "produtos.html">Produtos</a></li>
+						<li><a href = "contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
-		<img id="banner" src="banner.jpg"> 
-		<div class="principal">
+		<img class="banner" src="banner.jpg"> 
 
-		<h2 class="titulocentralizado">Sobre a Barbearia do Miguel</h2>
-			<p>Localizada no coração da cidade a <strong>Barbearia do Miguel</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia do Miguel já é destaque na cidade e conquista novos clientes a cada dia.</p>
+		<main>
+			<section class="principal">
 
-			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
+				<h2 class="titulo-principal">Sobre a Barbearia do Miguel</h2>
+				<img class="utensilios" src="utensilios.jpg" alt="Utensílio de Barbearia">
 
-			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-		</div>
+				<p>Localizada no coração da cidade a <strong>Barbearia do Miguel</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia do Miguel já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-		<div class="beneficios">
-			<h3 class="titulocentralizado">Benefícios</h3>
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
 
-			<ul>
-				<li class="itens">Atendimento aos Clientes</li>
-				<li class="itens">Espaço diferenciado</li>
-				<li class="itens">Profissionais Qualificados</li>
-				<li class="itens">Localização</li>
-			</ul>
-			<img src="beneficios.jpg" class="imagembeneficios">
-		</div>
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
+
+			<section class="mapa">
+				<h3 class="titulo-principal">Nosso Estabelecimento</h3>
+				<p>Nosso estabelecimento está muito bem localizado na cidade!</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.240249898314!2d-47.885366684659694!3d-15.791280989053208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b3c2a6e99f3%3A0x82609d19eae687e1!2sShopping%20Conjunto%20Nacional!5e0!3m2!1spt-BR!2sbr!4v1669428216239!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
+
+
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h3>
+
+				<ul>
+					<li class="itens">Atendimento aos Clientes</li>
+					<li class="itens">Espaço diferenciado</li>
+					<li class="itens">Profissionais Qualificados</li>
+					<li class="itens">Localização</li>
+				</ul>
+				<img src="beneficios.jpg" class="imagembeneficios">
+
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+		</main>
 	</body>
+
+	<footer>
+		<img src= "logo-branco.png">
+		<p class= "copyright">&copy; Copyright Barbearia do Miguel - 2022</p>
+	</footer>
 	
 </html>
 
